@@ -1,4 +1,11 @@
-<h1>The is My Quiz #1 App!</h1>
-<h2> Just a basic web app with static content on it!</h2>
-<h3>That's about it for this one!</h3>
-<h4> Not Using the Database!</h4>
+<!-- <h1>The is My Quiz #2 App!</h1>
+<h2> I have created a model and database migration. I also added a SimpleForm gem, and built a new form for the item!</h2>
+<h3>That's all until Quiz #3!</h3> -->
+<% @malls.each do |mall| %>
+  <div>
+    <h1><%= mall.name %></h1><br />
+    <i><%= mall.address %></i><br />
+  </div>
+
+  <hr />
+<% end %>
